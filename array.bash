@@ -23,6 +23,9 @@ echo ${files[3]}
 echo ${files[4]}
 echo ${files[5]}
 
+echo "#### Array Length ####"
+echo ${#files[@]}
+
 echo "####Iterating over Array####"
 for file in "${files[@]}"
 do
