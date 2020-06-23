@@ -1,3 +1,9 @@
+#!/bin/bash
+#
+# This code find all the files in a directory
+# append them to an array
+# prints the file in the array
+#
 set -e
 #set -x
 
